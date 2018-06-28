@@ -26,7 +26,7 @@ class Trader:
     async def about(self,ctx):
         '''help menu'''
         about = """**__SQUEE__**\n\n**The AE Federation's official Mascot!**"""
-        helpm = """Hi, I'm Squee!\nPlease don't be frighten by my appearance, I know I'm an ugly girl but I don't bite.\nI'm the mascot here and when I am not here, I am working over at Boog's tavern.\n\nThanks for joining us!"""
+        helpm = """Hi, I'm Squee!\nPlease don't be frightened by my appearance, I know I'm an ugly girl but I don't bite.\nI'm the mascot here and when I am not here, I am working over at Boog's tavern.\n\nThanks for joining us!"""
 
         em = discord.Embed(color = 0xffd500)
         em.set_thumbnail(url = self.bot.user.avatar_url)
