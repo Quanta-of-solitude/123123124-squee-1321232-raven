@@ -25,7 +25,7 @@ class squeechat:
             print(e)
 
     @commands.command()
-    async def hi(self, ctx, *, args:str = None):
+    async def uee(self, ctx, *, args:str = None):
         if args == None:
             return
         await ctx.trigger_typing()
