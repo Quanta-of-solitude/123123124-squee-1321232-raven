@@ -35,8 +35,8 @@ class squeechat:
         try:
             lst = ["who are you?", "who are you", "what is your name", "what is your name?", "whatr is ur name?", "what is ur name"]
 
-            if text in lst:
-                response = "I am squee! :D"
+            if text.startswith("say"):
+                pass
             else:
                 response = self.get_response(args)
 
