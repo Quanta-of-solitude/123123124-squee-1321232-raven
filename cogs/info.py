@@ -10,7 +10,7 @@ import json
 import collections
 from random import randint
 
-class Trader:
+class Trader(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
