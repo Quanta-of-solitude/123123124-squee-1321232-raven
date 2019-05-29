@@ -6,7 +6,7 @@ import asyncio
 import requests
 
 
-class squeechat:
+class squeechat(commands.Cog):
 
     def __init__(self,bot):
 
